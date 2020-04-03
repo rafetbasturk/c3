@@ -1,5 +1,4 @@
 body {
-    font-size: 16px;
     font-family: 'Karla', sans-serif;
     margin: 0;
     padding: 0;
@@ -90,4 +89,88 @@ h5 {
     text-decoration: none;
     color: white;
     font-size: 2rem;
+}
+
+/* mobile */
+
+@media (max-width: 375px) {
+    .top-container {
+        margin: 0;
+        padding: 2rem;
+    }
+
+    .button {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1rem;
+        display: inline;
+        line-height: 2;
+    }
+
+    .bottom-container {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .monthly {
+        padding: 2rem;
+        margin: 0;
+        width: auto;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    .price {
+        position: static;
+        margin: 1rem 0;
+    }
+
+    #full-access {
+        position: static;
+        font-size: 1.15rem;
+        margin-bottom: 3rem;
+    }
+
+    .button {
+        position: static;
+        display: block;
+        padding: .5rem 6rem;
+        margin-top: 2rem;   
+    }
+
+    h4 {
+        font-size: 2.5rem;
+    }
+
+    h5 {
+        font-size: 1.25rem;
+    }
+
+    .why-us {
+        width: auto;
+        margin: 0;
+        padding: 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .why-us p {
+        margin: 0;
+        padding: 0;
+    }
+
 }
